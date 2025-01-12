@@ -10,13 +10,22 @@
 <body>
     <header>
         <h1>Welcome to Mutigame!</h1>
-        <p>Select a game to get started.</p>
+        <p>Choose your adventure or see what's new!</p>
     </header>
-    <main>
-        <button onclick="startGame('text-adventure')">Text Adventure Game</button>
-        <button onclick="startGame('trivia-quiz')">Trivia Quiz</button>
-        <button onclick="startGame('ai-drawing')">AI Drawing Game</button>
-    </main>
+    <nav>
+        <a href="#" onclick="startGame('text-adventure')">Text Adventure Game</a>
+        <a href="#" onclick="startGame('trivia-quiz')">Trivia Quiz</a>
+        <a href="#" onclick="startGame('ai-drawing')">AI Drawing Game</a>
+    </nav>
+    <section id="whats-new">
+        <h2>What's New</h2>
+        <ul>
+            <li>Responsive Design</li>
+            <li>New Games: Text Adventure, Trivia Quiz, and AI Drawing</li>
+            <li>Interactive Animations</li>
+            <li>Bug Fixes and Performance Improvements</li>
+        </ul>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
